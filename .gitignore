@@ -1,0 +1,33 @@
+ENV/
+env/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Pytest
+.pytest_cache/
+.cache/
+
+# Allure (оставляем только папку reports для отчётов)
+allure-report/
+
+# Coverage
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Docker
+videos/
