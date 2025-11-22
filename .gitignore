@@ -1,5 +1,7 @@
 ENV/
 env/
+.venv/
+venv/
 
 # IDE
 .idea/
@@ -11,6 +13,7 @@ env/
 # Pytest
 .pytest_cache/
 .cache/
+__pycache__/
 
 # Allure (оставляем только папку reports для отчётов)
 allure-report/
