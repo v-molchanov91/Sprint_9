@@ -8,4 +8,6 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 COPY . .
 
-CMD ["pytest", "--alluredir=/app/reports", "-v"]
+ENV PYTHONPATH=/app
+
+CMD ["pytest", "tests/", "--alluredir=/app/reports", "-v", "-n", "3"]
